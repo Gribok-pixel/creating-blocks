@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CREATE YOU CANVAS</title>
+</head>
+<body>
+
+    <div class="wrap">
+
+        <div class="rules">
+            <div class="description">
+                <h1>Создание блоков</h1>
+                <h2>Создайте блок введя ширину и длину блока</h2>
+                <ul>
+                    <li class="title">Кликните по созданному блоку чтобы управлять им</li>
+                    <li>Клавиши: &larr; &uarr; &rarr; &darr; для вращения блока</li>
+                    <li>Зажатая левая кнопка мыши: для перемещения блока</li>
+                </ul>
+            </div>
+        
+            <div class="create">
+                <div>
+                    <label for="">Ширина:</label>
+                    <input type="text" placeholder="100" class="input-width">
+                </div>
+                <div>
+                    <label for="">Высота:</label>
+                    <input type="text" placeholder="100" class="input-height">
+                </div>
+                <div>
+                    <label for="">Закругление:</label>
+                    <input type="text" placeholder="0%" class="input-radius">
+                </div>
+                <div>
+                    <label for="">Цвет:</label>
+                    <input type="color" class="input-color">
+                </div>
+                <button class="create-btn">Create</button>
+            </div>
+        </div>
+
+        <div class="canvas">
+            
+            <div class="cube">
+                
+            </div>
+            
+            <div class="save-list">
+                Сохраненки
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

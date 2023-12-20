@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Rubik', sans-serif; */
+}
+
+.wrap {
+    margin: 0 120px;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+
+.rules {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(225, 224, 224);
+}
+
+
+.description {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.create {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.create label {
+    font-size: 24px;
+    margin-right: 15px;
+}
+.create input {
+    padding-bottom: 2px;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    font-size: 19px;
+}
+
+::placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.input-color {
+    /* width: 100px; */
+    height: 50px;
+}
+.input-color:hover {
+    cursor: pointer;
+}
+
+.create-btn {
+    padding: 14px 24px;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+.create-btn:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transform: perspective(400px) scaleZ(-0.8) translateZ(-50px) rotateX('45deg');
+}
+
+.ball:hover {
+    box-shadow: -2px 0px 16px 3px rgba(34, 60, 80, 0.2);
+}
+
+
+.canvas {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cube {
+    width: 80%;
+    height: 600px;
+    box-shadow: -2px 0px 16px 3px rgba(34, 60, 80, 0.2);
+}
+
+.save-list {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
